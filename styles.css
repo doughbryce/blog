@@ -1,0 +1,76 @@
+.hidden{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*the blog styling*/
+*{
+  background-color: #F6F6F6;
+  text-align: center;
+  margin: 0;
+  border: solid;
+}
+.gone{
+  display: none;
+}
+.main{
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+.newTitle{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.newPost{
+  padding-bottom: 2%
+  line-height: 2em;
+}
+.banner{
+  background: turquoise;
+  height: 100px;
+}
+h1{
+  padding-top: 2%;
+  background-color: turquoise;
+  font-size: 1.9em;
+}
+#title{
+  margin: 1%;
+  width: 30%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  padding: 1%;
+  font-size: 2em;
+}
+#text{
+  margin: 1%;
+  padding: 2%;
+  text-align: left;
+  width: 50%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+button{
+  outline: none;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: turquoise;
+  box-shadow: solid;
+}
